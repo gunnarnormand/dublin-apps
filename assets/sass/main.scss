@@ -1,22 +1,18 @@
-
-.btn {
-    float: left;
-    height: 40px;
-    width: 60%;
-    font-size: 1.2em;
-    color: #fff;
-    background-color: deepskyblue;
-
+@import 'home';
+@import 'blog';
+@import 'products';
+@import 'variables';
+@import 'buttons';
 
 h1 {
-	color: red;
-	font-size: 5em;
+  color: red;
+  font-size: 5em;
 
 .container {
-	
-	>div {
-		width: 75%;
-		height: auto;
-		margin: 0 auto;
-	}
+
+  >div {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+  }
 }
