@@ -7,8 +7,16 @@
     color: #fff;
     background-color: deepskyblue;
 
+
 h1 {
 	color: red;
 	font-size: 5em;
 
+.container {
+	
+	>div {
+		width: 75%;
+		height: auto;
+		margin: 0 auto;
+	}
 }
