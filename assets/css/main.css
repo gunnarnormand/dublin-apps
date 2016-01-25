@@ -1,0 +1,169 @@
+.btn {
+  float: left;
+  height: 40px;
+  width: 60%;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: deepskyblue;
+}
+
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.col-5 {
+  width: 41.66667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33333%;
+}
+
+.col-8 {
+  width: 66.66667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+
+.col-11 {
+  width: 91.66667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.row > * {
+  float: left;
+  padding-right: 10px;
+}
+
+.row > *:last-child {
+  padding-right: 0;
+}
+
+.row {
+  float: left;
+  width: 100%;
+}
+
+.container {
+  float: left;
+  width: 73.060029282577%;
+  margin: 0 13.4699853587115%;
+}
+
+header, footer, section {
+  float: left;
+  width: 100%;
+}
+
+header {
+  height: auto;
+  padding: 37px 0;
+}
+
+header .logo {
+  float: left;
+  max-width: 37px;
+  height: 37px;
+  width: 15%;
+  text-indent: -99999px;
+  overflow: hidden;
+  background: url("../img/logo.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+header .title {
+  float: left;
+  width: 85%;
+  color: #fff;
+  text-align: left;
+  margin-top: -7px;
+  padding-left: 8px;
+}
+
+header .title > * {
+  margin: 0;
+}
+
+header .title h1 {
+  font-family: FlareLightGothic;
+  font-size: 39px;
+}
+
+header .title h2 {
+  font-family: FranklinGothic;
+  font-size: 17px;
+}
+
+header .nav {
+  float: left;
+  width: 100%;
+}
+
+header .nav li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 7px;
+}
+
+header .nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  font-family: Colaborate;
+  padding: 6px 9px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+header .nav li a:hover {
+  color: #161628;
+  background: #d8d8e3;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+  background: darkblue;
+}
+
+/*****************
+Mixins
+*****************/
+/*****************
+Universal Styles
+*****************/
+/*****************
+Main Styles
+*****************/

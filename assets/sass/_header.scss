@@ -1,0 +1,67 @@
+header {
+    height: auto;
+    padding: 37px 0;
+    
+    .logo {
+        float: left;
+        max-width: 37px;
+        height: 37px;
+        width: 15%;
+        text-indent: -99999px;
+        overflow: hidden;
+        background: url('../img/logo.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+    }
+    
+    .title {
+        float: left;
+        width: 85%;
+        color: $white;
+        text-align: left;
+        margin-top: -7px;
+        padding-left: 8px;
+        
+        &>* {
+            margin: 0;
+        }
+        
+        h1 {
+            font-family: $FlareLightGothic;
+            font-size: 39px;
+        }
+        
+        h2 {
+            font-family: $FranklinGothic;
+            font-size: 17px;
+        }
+    }
+    
+    .nav {
+        float: left;
+        width: 100%;
+        
+        li {
+            list-style-type: none;
+            display: inline;
+            padding: 0 7px;
+            
+            a {
+                text-decoration: none;
+                color: $white;
+                font-weight: 300;
+                font-family: $Colaborate;
+                padding: 6px 9px;
+                border-radius: 5px;
+                font-size: 17px;
+                
+                &:hover {
+                    color: #161628;
+                    background: #d8d8e3;
+                }
+            }
+            
+        }
+    }
+}

@@ -1,18 +1,47 @@
+@import 'variables';
 @import 'home';
 @import 'blog';
 @import 'products';
-@import 'variables';
-@import 'buttons';
+@import 'button';
+@import 'columns';
+@import 'header';
 
-h1 {
-  color: red;
-  font-size: 5em;
-
-.container {
-
-  >div {
-    width: 75%;
-    height: auto;
-    margin: 0 auto;
-  }
+.clearfix::after {
+    content:"";
+    display:table;
+    clear:both;
 }
+
+* {
+    box-sizing: border-box;
+    background: darkblue;
+}
+
+/*****************
+Mixins
+*****************/
+
+@mixin bp-small {
+    @media (max-width: $tablet-breakpoint) {
+        @content;
+    }
+}
+
+@mixin bp-large {
+    @media (max-width: $desktop-breakpoint) {
+        @content;
+    }
+}
+
+/*****************
+Universal Styles
+*****************/
+
+/*****************
+Main Styles
+*****************/
+
+
+
+    
+    

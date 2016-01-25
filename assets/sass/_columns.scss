@@ -1,0 +1,30 @@
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        width: percentage($i / 12);
+    }
+}
+
+.row > * {
+    float: left;
+    padding-right: 10px;
+
+    &:last-child {
+        padding-right: 0;
+    }
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+.container {
+    float: left;
+    width: 73.060029282577%;
+    margin: 0 13.4699853587115%;
+}
+
+header, footer, section {
+    float: left;
+    width: 100%;
+}
