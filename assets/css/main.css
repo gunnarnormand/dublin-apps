@@ -1,3 +1,48 @@
+@font-face {
+  font-family: 'Contra';
+  src: url(../fonts/Contra.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Contra-Italic';
+  src: url(../fonts/ContraItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Colab-Regular';
+  src: url(../fonts/ColabReg.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Colab-Light';
+  src: url(../fonts/ColabLight.otf) format("opentype");
+}
+
+h1, p, button {
+  font-family: Colab-Light, arial, sans-serif;
+}
+
+h1 {
+  font-size: 27px;
+  color: #505050;
+}
+
+p {
+  font-size: 15px;
+  color: #5f7390;
+}
+
+.product-ipad {
+  text-align: center;
+  height: auto;
+}
+
+.product-ipad button {
+  height: 34px;
+  width: 130px;
+  border-radius: 4px;
+}
+
 .btn {
   float: left;
   height: 40px;
