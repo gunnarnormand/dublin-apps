@@ -1,4 +1,25 @@
+@font-face {
+  font-family: 'Contra';
+  src: url(../fonts/Contra.ttf)  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Contra-Italic';
+  src: url(../fonts/ContraItalic.ttf)  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Colab-Regular';
+  src: url(../fonts/ColabReg.otf)  format('opentype'); 
+}
+
+@font-face {
+  font-family: 'Colab-Light';
+  src: url(../fonts/ColabLight.otf)  format('opentype'); 
+}
+
 $white: #fff;
 $Colaborate: Colaborate;
 $FranklinGothic: FranklinGothic;
 $FlareLightGothic: FlareLightGothic;
+
