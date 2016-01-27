@@ -1,0 +1,24 @@
+h1, p, button {
+	font-family: Colab-Light, arial, sans-serif;
+}
+
+h1 {
+	font-size: 27px;
+	color: #505050;
+}
+
+p {
+	font-size: 15px;
+	color: #5f7390;
+}
+
+.product-ipad {
+	text-align: center;
+	height: auto;
+
+	button {
+		height: 34px;
+		width: 130px;
+		border-radius: 4px;
+	}
+}
