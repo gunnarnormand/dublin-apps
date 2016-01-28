@@ -1,0 +1,127 @@
+h3 {
+	font-family: Colab-Light, arial, sans-serif;
+	font-size: 27px;
+	font-weight: lighter;
+	margin: 0;
+}
+
+.blog-header {
+	margin-bottom: 0;
+}
+
+.blog-container {
+	padding: 0;
+	background-color: #e7e8ea;
+
+	.article {
+		padding: 0 30px;
+		padding-top: 24px;
+		margin-bottom: 12px;
+
+		.article-image {
+			float: left;
+			margin-right: 28px;
+		}
+
+		.article-contents {
+			float: left;
+			padding-bottom: 20px;
+			border-bottom: 1px solid #CFD9E7;
+
+			.blog-date,
+			.blog-author {
+				color: $BlueText;
+				font-size: 12px;
+				margin-right: 12px;
+			}
+
+			p {
+				padding: 5px 0;
+			}
+
+			.social-media-icon {
+				float: left;
+				padding: 9px 4px 0 4px;
+			}
+
+			.btn {
+				float: right;
+				margin: 0;
+			}
+
+		}
+	}
+
+	.page-number-links {
+		text-align: center;
+	}
+
+	.page-number-btn,
+	.page-number-btn span {
+		border-radius: 3px;
+	}
+
+	.page-number-btn {
+	    display: inline-block;
+	    font-size: 12px;
+	    border: 1px solid #5C7381;
+	    color: #fff;
+	    text-decoration: none;
+	    margin-right: 14px;
+
+	    &:last-child {
+	    	margin-right: 0;
+	    }
+
+	    span {
+	    	border-top: 1px solid rgba(255,255,255,0.5);
+	    	border-left: 1px solid rgba(255,255,255,0.5);
+	    	padding: .5em .9em;
+	    	display: inline-block;
+	    	background: #353546; /* Old browsers */
+	    	background: -moz-linear-gradient(top, #353546 0%, #595970 100%); /* FF3.6-15 */
+	    	background: -webkit-linear-gradient(top, #353546 0%,#595970 100%); /* Chrome10-25,Safari5.1-6 */
+	    	background: linear-gradient(to bottom, #353546 0%,#595970 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	    }
+
+	    &.active {
+	    	border: 1px solid #1A3F8C;
+	    	span {
+	    		background: #2b60c1; /* Old browsers */
+	    		background: -moz-linear-gradient(top, #2b60c1 0%, #23488c 100%); /* FF3.6-15 */
+	    		background: -webkit-linear-gradient(top, #2b60c1 0%,#23488c 100%); /* Chrome10-25,Safari5.1-6 */
+	    		background: linear-gradient(to bottom, #2b60c1 0%,#23488c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	    	}
+	    }
+	}
+}
+
+.slidebar {
+	background-color: #E7E8EA;
+	padding: 24px 20px !important;
+	box-shadow: inset 20px 0px 21px -10px lightgrey;
+
+	h3 {
+		margin-bottom: 20px;
+	}
+
+	ul {
+		padding-left: 16px;
+		margin: 0;
+		margin-bottom: 20px;
+		list-style-image: url("../img/homepage-playicon.png");
+
+		li {
+			margin-bottom: 14px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.advertisement {
+		// width: 100%;
+		margin: 10px 0;
+	}
+}
