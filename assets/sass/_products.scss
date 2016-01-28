@@ -5,20 +5,184 @@ h1, p, button {
 h1 {
 	font-size: 27px;
 	color: #505050;
+	font-weight: lighter;
+	margin: 0;
 }
 
 p {
 	font-size: 15px;
 	color: #5f7390;
+	margin: 0;
 }
 
-.product-ipad {
-	text-align: center;
-	height: auto;
+button {
+	font-family: Colab-Regular;
+	border: none;
+	border-radius: 5px;
+	color: $white;
+}
 
-	button {
-		height: 34px;
-		width: 130px;
-		border-radius: 4px;
+.products {
+	background-color: $MainProductBg;
+	width: 73.060029282577%;
+    margin: 0 13.4699853587115%;
+    float: left;
+}
+
+.product-header {
+	background: $HeaderBgGradient;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid $HeaderBorderBottom;
+	box-shadow: inset 0 -4px 10px -1px $MainProductBg;
+
+	.product-header-contents {
+		margin: 30px 4.19% auto;
+		margin-bottom: 30px;
+
+		.product-header-text {
+			float: left;
+
+			h1 {
+				margin-bottom: 0;
+			}
+
+			p {
+				margin: 0;
+				margin-left: 1.5%;
+			}
+		}
+
+		.searchbar {
+			float: right;
+    		margin-top: 4px;
+
+			.search {
+    			position: relative;
+    			margin: 0 auto;
+    			width: 250px;
+
+    			input {
+    				height: 26px;
+    				width: 100%;
+    				padding: 0 12px 0 25px;
+    				background: $white 8px 6px no-repeat;
+    				border-width: 1px;
+    				border-style: solid;
+    				border-color: #a8acbc #babdcc #c0c3d2;
+   					border-radius: 13px;
+    				box-sizing: border-box;
+    				box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+
+    				&:focus {
+    					outline: none;
+    					border-color: #66b1ee;
+    					box-shadow: 0 0 2px rgba(85, 168, 236, 0.9);
+					}
+				}
+			}
+		}
 	}
 }
+
+.left-arrow {
+	display: inline-block;
+	float: left;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+
+.right-arrow {
+	display: inline-block;
+	float: right;
+	padding-right: 20px;
+	vertical-align: middle;
+}
+
+.product-items {
+	float: left;
+	margin: 0 8.35% auto;
+
+	.product-ipad {
+		text-align: center;
+		height: auto;
+		margin-top: 27px;
+		float: left;
+
+		h1 {
+			margin: 10px;
+		}
+
+		button {
+			font-size: 19px;
+			color: $white;
+			background: $PrimaryBtnGradient;
+			height: 34px;
+			width: 130px;
+			border-radius: 4px;
+			margin: 25px;
+		}
+	}
+}	
+
+.tabs {
+	margin: 0 8.35% auto;
+	margin-top: 70px;
+	margin-bottom: 42px;
+	border-bottom: 1px solid #bfc0c5;
+
+	.tab-active {
+		background: $SecondaryBtnGradient;
+		border-radius: 5px 5px 0px 0px;
+		height: 30px;
+		width: 140px;
+	}
+
+	.tab-gray {
+		background: $HeaderBgGradient;
+		border-radius: 5px 5px 0px 0px;
+		height: 30px;
+		width: 105px;
+	}
+}
+
+.product-small-row {
+	float: left;
+	margin: 0 8.35% auto;
+	margin-bottom: 64px;
+
+	.product-small {
+		float: left;
+		text-align: center;
+
+		img {
+			float: left;
+		}
+
+		.product-small-text {
+
+			text-align: left;
+			margin-left: 120px;
+
+			h1 {
+				font-size: 22.59px;
+				margin-top: 4px;
+				font-stretch: wider;
+			}
+
+			p {
+				font-size: 12.55px;
+				margin-left: 4px;
+				margin-top: 2px;
+			}
+
+			button {
+				background: $SecondaryBtnGradient;
+				height: 25px;
+				width: 95px;
+				margin-left: 6px;
+				margin-top: 18px;
+			}
+		}
+	}
+}
+
