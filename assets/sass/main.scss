@@ -19,13 +19,14 @@ Imports
 *****************/
 
 @import 'variables';
-@import 'home';
-@import 'blog';
-@import 'products';
+
 @import 'button';
 @import 'columns';
 @import 'header';
 @import 'footer';
+@import 'home';
+@import 'blog';
+@import 'products';
 
 .row::after {
     content:"";
