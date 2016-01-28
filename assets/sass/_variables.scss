@@ -18,6 +18,36 @@
   src: url(../fonts/ColabLight.otf)  format('opentype'); 
 }
 
+@font-face {
+    font-family: 'FranklinGothic';
+    src: url('../fonts/franklingothic-book.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FlareLightGothic';
+    src: url('../fonts/ufonts.com_flare-light-gothic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ChunkFive';
+    src: url('../fonts/Chunkfive.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AlexandriaFLF-Bold';
+    src: url('../fonts/AlexandriaFLF-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AlexandriaFLF';
+    src: url('../fonts/AlexandriaFLF.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Contra';
+    src: url('../fonts/CONTRA__.ttf') format ('truetype');
+}
+
 $tablet-breakpoint: 760px;
 $desktop-breakpoint: 980px;
 $white: #fff;
@@ -28,6 +58,7 @@ $FlareLightGothic: FlareLightGothic;
 
 // products page colors and gradients 
 
+$dark-blue: #242439;
 $MainProductBg: #e7e8ea;
 $HeaderBgGradient: linear-gradient(to bottom,  #e9eaec 0%,#d5d6d8 100%);
 $HeaderBorderBottom: #f7f7f7;
@@ -35,5 +66,6 @@ $HeaderTextGrey: #505050;
 $BlueText: #5f7390;
 $PrimaryBtnGradient: linear-gradient(to bottom, #2d6bc2 0%,#174183 100%); 
 $SecondaryBtnGradient: linear-gradient(to bottom,  #48485c 0%,#373748 100%);
+$home-carousel-h2: #d8d8e3;  
 
 

@@ -1,31 +1,77 @@
 #home-carousel {
+    
+    margin-bottom: 20px;
+    
     .col-5 {
+        
+        @include bp-large {
+            .btn {
+                width: 60%;
+                margin: 10px 20%;
+            }
+        }
         
         &>* {
             float: right;
-            margin: 5px 10px;
+            margin: 0px 10px;
+            
+            @include bp-large {
+                float: left;
+            }
         }
         
         h1, h2, p {
             text-align: right;
+            
+            @include bp-large {
+                text-align: center;
+            }
         }
         
         h1 {
-            font-family: ChunkFive;
+            font-family: 'ChunkFive';
             font-size: 45px;
             width: 100%;
+            color: $MainProductBg;
+            margin-top: 35px;
         }
         
         h2 {
             width: 100%;
-            font-family: AlexandriaFLF;
+            font-family: 'AlexandriaFLF';
             font-size: 39px;
+            color: $home-carousel-h2;
+            font-weight: 400;
+            margin-bottom: 5px;
+            
+            span {
+                font-weight: 700;
+                font-family: 'AlexandriaFLF-Bold';
+            }
         }
         
         p {
             font-size: 23px;
-            font-family: Colaborate;
-            width: 50%;
+            width: 45%;
+            font-weight: 100;
+            color: $MainProductBg;
+            font-family: 'Colab-Light';
+            margin-bottom: 30px;
+            
+            @include bp-large {
+                width: 100%;
+            }
+        }
+        
+        
+    }
+    
+    img {
+            
+        @include bp-large {
+            margin: 5px 15%;
+            width: 70%;
+            height: auto;
         }
     }
 }
@@ -34,11 +80,72 @@
     
     .col-3 {
         
+        @include bp-large {
+            width: 80%;
+            margin: 20px 10%;
+        }
+        
         img {
             width: auto;
             height: 100%;
-        }
+            
+            @include bp-large {
+                width: 100%;
+                height: auto;
+            }
+        }  
     } 
+}
+
+#more-services {
+    
+    img {
+        float: left;
+        width: 12%;
+        height: auto;
+    }
+    
+    h4, h5 {
+        float: left;
+        width: 88%;
+        margin: 0;
+        padding: 0 0 0 7px;
+        font-weight: 300;
+    }
+    
+    h4 {
+        font-size: 22px;
+    }
+    
+    h5 {
+        font-size: 12px;
+        color: $BlueText;
+    }
+    
+    p {
+        margin-top: 10px;
+        float: left;
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 30px;
+        text-align: justify;    
+    }
+}
+
+#slider {
+    
+    p {
+        padding: 20px 50px;
+        font-family: 'Contra';
+        border-top: 1px solid rgba(25,25,25,0.2);
+        border-bottom: 1px solid rgba(25,25,25,0.2);
+        color: #828181;
+        
+        span {
+            color: #687b96;
+        }
+    }
 }
 
 #home-cta {
@@ -49,26 +156,39 @@
         h2, h4 {
             margin: 0;
         }
+        
+        h4 {
+            font-size: 15px;
+            color: $BlueText;
+        }
     }
     
     .col-5 img {
         width: 95%;
         height: auto;
     }
+    
     ul {
         list-style-image: url('../img/homepage-playicon.png');
         width: 100%;
         
         li {
-            padding: 5px 0px;
+            padding: 7px 0px;
             font-size: 15px;
-            font-family: Colaborate;
         }
     }
     
+    .col-12 {
+        margin-top: 30px;
+    }
+    
     .col-12 ul li {
-        border-top: 1px solid rgba(25,25,25,0.5);
-        border-bottom: 1px solid rgba(25,25,25,0.5);
+        border-bottom: 1px solid rgba(25,25,25,0.1);
+        padding: 7px 0;
+        
+        &:nth-of-type(1) {
+            border-top: 1px solid rgba(25,25,25,0.1)
+        }
     }
 }
 

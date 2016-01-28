@@ -7,10 +7,18 @@
     background: -webkit-linear-gradient(top, #2d6ac1 0%,#184386 100%);
     border-radius: 5px;
     text-align: center;
+    height: 34px;
+    line-height: 34px;
+    font-size: 19px;
+    font-family: 'Colab-Regular';
+    font-weight: 400;
+    padding: 0 20px;
+    margin-left: 40px;
+    
     
     &.big {
-        height: 43px;
         width: 50%;
+        height: 43px;
         font-size: 23px;
         line-height: 43px;
     }

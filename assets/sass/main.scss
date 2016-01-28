@@ -1,3 +1,23 @@
+/*****************
+Mixins
+*****************/
+
+@mixin bp-small {
+    @media (max-width: $tablet-breakpoint) {
+        @content;
+    }
+}
+
+@mixin bp-large {
+    @media (max-width: $desktop-breakpoint) {
+        @content;
+    }
+}
+
+/*****************
+Imports
+*****************/
+
 @import 'variables';
 @import 'home';
 @import 'blog';
@@ -17,21 +37,7 @@
     box-sizing: border-box;
 }
 
-/*****************
-Mixins
-*****************/
 
-@mixin bp-small {
-    @media (max-width: $tablet-breakpoint) {
-        @content;
-    }
-}
-
-@mixin bp-large {
-    @media (max-width: $desktop-breakpoint) {
-        @content;
-    }
-}
 
 /*****************
 Universal Styles
@@ -44,6 +50,13 @@ Universal Styles
 body {
     background: -webkit-linear-gradient(top, #1b1b2d 0%,#3d3d4d 21%,#e7e8ea 50%);
 }
+
+h2, h3, h4, h5, li, p {
+    font-family: 'Colab-Regular';
+    font-weight: 300;
+    color: $HeaderTextGrey;
+}
+
 
 /*****************
 Main Styles

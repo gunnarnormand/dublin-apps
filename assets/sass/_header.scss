@@ -28,36 +28,60 @@ header {
         }
         
         h1 {
-            font-family: "FlareLightGothic";
+            font-family: 'FlareLightGothic';
             font-size: 39px;
+            color: $white;
+            font-weight: 400;
         }
         
         h2 {
             font-family: 'FranklinGothic';
             font-size: 17px;
+            color: $white;
+            font-weight: 300;
         }
     }
     
     .nav {
         float: left;
         width: 100%;
+        padding-left: 0;
         
         li {
             list-style-type: none;
             display: inline;
             padding: 0 7px;
             
+            @include bp-large {
+                display: block;
+                text-align: center;
+                margin: 20px 0;
+                width: 100%;
+            }
+            
             a {
                 text-decoration: none;
-                color: $white;
+                color: $home-carousel-h2;
                 font-weight: 300;
-                font-family: 'Colaborate';
+                font-family: 'Colab-Light';
                 padding: 6px 9px;
                 border-radius: 5px;
                 font-size: 17px;
                 
+                @include bp-large {
+                    float: left;
+                    font-size: 30px;
+                    width: 100%;
+                    border-radius: 0px;
+                }
+                
                 
                 &:hover {
+                    color: #161628;
+                    background: #d8d8e3;
+                }
+                
+                &.active {
                     color: #161628;
                     background: #d8d8e3;
                 }
