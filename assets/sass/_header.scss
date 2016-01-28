@@ -28,12 +28,12 @@ header {
         }
         
         h1 {
-            font-family: $FlareLightGothic;
+            font-family: "FlareLightGothic";
             font-size: 39px;
         }
         
         h2 {
-            font-family: $FranklinGothic;
+            font-family: 'FranklinGothic';
             font-size: 17px;
         }
     }
@@ -51,7 +51,7 @@ header {
                 text-decoration: none;
                 color: $white;
                 font-weight: 300;
-                font-family: $Colaborate;
+                font-family: 'Colaborate';
                 padding: 6px 9px;
                 border-radius: 5px;
                 font-size: 17px;

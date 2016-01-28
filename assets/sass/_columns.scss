@@ -1,6 +1,11 @@
 @for $i from 1 through 12 {
     .col-#{$i} {
         width: percentage($i / 12);
+        float: left;
+    }
+    
+    .offset-#{$i} {
+        margin-left: percentage($i / 12);
     }
 }
 

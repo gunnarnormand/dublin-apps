@@ -1,0 +1,74 @@
+#home-carousel {
+    .col-5 {
+        
+        &>* {
+            float: right;
+            margin: 5px 10px;
+        }
+        
+        h1, h2, p {
+            text-align: right;
+        }
+        
+        h1 {
+            font-family: ChunkFive;
+            font-size: 45px;
+            width: 100%;
+        }
+        
+        h2 {
+            width: 100%;
+            font-family: AlexandriaFLF;
+            font-size: 39px;
+        }
+        
+        p {
+            font-size: 23px;
+            font-family: Colaborate;
+            width: 50%;
+        }
+    }
+}
+
+#services {
+    
+    .col-3 {
+        
+        img {
+            width: auto;
+            height: 100%;
+        }
+    } 
+}
+
+#home-cta {
+    
+    .col-8 {
+        text-align: left;
+        
+        h2, h4 {
+            margin: 0;
+        }
+    }
+    
+    .col-5 img {
+        width: 95%;
+        height: auto;
+    }
+    ul {
+        list-style-image: url('../img/homepage-playicon.png');
+        width: 100%;
+        
+        li {
+            padding: 5px 0px;
+            font-size: 15px;
+            font-family: Colaborate;
+        }
+    }
+    
+    .col-12 ul li {
+        border-top: 1px solid rgba(25,25,25,0.5);
+        border-bottom: 1px solid rgba(25,25,25,0.5);
+    }
+}
+

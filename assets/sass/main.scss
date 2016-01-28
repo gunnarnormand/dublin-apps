@@ -5,8 +5,9 @@
 @import 'button';
 @import 'columns';
 @import 'header';
+@import 'footer';
 
-.clearfix::after {
+.row::after {
     content:"";
     display:table;
     clear:both;
@@ -14,7 +15,6 @@
 
 * {
     box-sizing: border-box;
-    background: darkblue;
 }
 
 /*****************
@@ -36,6 +36,14 @@ Mixins
 /*****************
 Universal Styles
 *****************/
+
+.centered {
+    text-align: center;
+}
+
+body {
+    background: -webkit-linear-gradient(top, #1b1b2d 0%,#3d3d4d 21%,#e7e8ea 50%);
+}
 
 /*****************
 Main Styles

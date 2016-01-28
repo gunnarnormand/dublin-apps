@@ -1,8 +1,17 @@
 .btn {
     float: left;
-    height: 40px;
-    width: 60%;
-    font-size: 1.2em;
+    font-family: Colaborate, sans-serif;
+    border: 1px solid #7291c0;
     color: #fff;
-    background-color: deepskyblue;
+    text-decoration: none;
+    background: -webkit-linear-gradient(top, #2d6ac1 0%,#184386 100%);
+    border-radius: 5px;
+    text-align: center;
+    
+    &.big {
+        height: 43px;
+        width: 50%;
+        font-size: 23px;
+        line-height: 43px;
+    }
 }
