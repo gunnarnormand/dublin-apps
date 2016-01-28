@@ -350,7 +350,7 @@ Imports
 .row {
   float: left;
   width: 73.060029282577%;
-  margin: 0 13.46999% 50px 13.46999%;
+  margin: 0 13.4699853587115% 50px 13.4699853587115%;
 }
 
 @media (max-width: 980px) {
@@ -824,7 +824,7 @@ h3 {
 .blog-container .page-number-btn span {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 0.5em 0.9em;
+  padding: .5em .9em;
   display: inline-block;
   background: #353546;
   /* Old browsers */
@@ -916,6 +916,7 @@ button {
   border-radius: 5px 5px 0px 0px;
   border-bottom: 1px solid #f7f7f7;
   box-shadow: inset 0 -4px 10px -1px #e7e8ea;
+  margin-bottom: 0;
 }
 
 .product-header .product-header-contents {
@@ -970,19 +971,19 @@ button {
   display: inline-block;
   float: left;
   padding-left: 20px;
-  vertical-align: middle;
+  margin-top: 13%;
 }
 
 .right-arrow {
   display: inline-block;
-  float: right;
+  float: left;
   padding-right: 20px;
-  vertical-align: middle;
+  margin-top: 13%;
 }
 
 .product-items {
   float: left;
-  margin: 0 8.35% auto;
+  margin: 0;
 }
 
 .product-items .product-ipad {
@@ -1065,6 +1066,15 @@ button {
   width: 95px;
   margin-left: 6px;
   margin-top: 18px;
+}
+
+@media (max-width: 980px) {
+  .left-arrow {
+    display: none;
+  }
+  .right-arrow {
+    display: none;
+  }
 }
 
 .row::after {
